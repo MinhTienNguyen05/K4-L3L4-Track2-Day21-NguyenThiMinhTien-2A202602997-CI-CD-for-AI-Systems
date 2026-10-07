@@ -4,6 +4,9 @@ import os
 TRAIN_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
 TEST_URL  = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.test"
 
+# TRAIN_URL = "data_raw/adult.data"
+# TEST_URL  = "data_raw/adult.test"
+
 # 15 cot goc cua bo du lieu Adult (file CSV khong co dong tieu de)
 RAW_COLUMNS = [
     "age", "workclass", "fnlwgt", "education", "education_num", "marital_status",
